@@ -1,1 +1,17 @@
-# MEGABOX-Clone-Coding-Project
+# MEGABOX Clone Coding Project
+
+### 조원
+
+- 태민규 소프트웨어학과 32174774
+- 남시욱 소프트웨어학과 32171354
+- 장수혁 모바일시스템공학과 32203856
+- 조성빈 소프트웨어학과 32204309
+
+---
+
+### 홈 페이지
+
+- Main : 태민규
+- Section 1 : 남시욱
+- Section 2 : 장수혁
+- Footer : 조성빈
