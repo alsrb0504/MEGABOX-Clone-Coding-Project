@@ -1,3 +1,6 @@
 body {
-  background-color: antiquewhite;
+  letter-spacing: 0;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
 }
