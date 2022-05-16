@@ -1,4 +1,60 @@
+/* 메인 배경 설정 */
+.home-main {
+  position: relative;
+  width: 100%;
+  min-height: 880px;
+  padding-bottom: 80px;
+
+  background-color: orange;
+}
+
+.home-main-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../../../../assets/img/home-main/home-main-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  background-size: cover;
+}
+
+.home-main-bg::before {
+  content: ";";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(85, 63, 5, 1) 0%,
+    rgba(23, 17, 1, 0) 50%,
+    rgba(85, 63, 5, 1) 100%
+  );
+  z-index: 3;
+}
+
+.home-main-bg::after {
+  content: ";";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 1, 21, 0.7);
+  z-index: 2;
+}
+
+/* 헤더 설정 */
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+
   /* 추후 적용해야 할 배경색 */
   /* background-color: rgba(0, 0, 0, 0.3); */
   background-color: rgba(0, 0, 0, 0.9);
@@ -158,3 +214,5 @@
 .gnb .gnb-right .gnb-bottom-link .gnb-txt-container .gnb-txt-benefit {
   background-image: url("../../../../assets/img/header-text/benefit-text-white.png");
 }
+
+/* 메인 : 박스 오피스 */
