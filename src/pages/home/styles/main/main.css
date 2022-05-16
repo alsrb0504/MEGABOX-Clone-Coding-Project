@@ -434,7 +434,12 @@
 }
 
 .main-search-link .link-container .icon-link img {
-  margin-right: 10 px;
+  margin-right: 8px;
+  height: 25px;
+}
+
+.main-search-link .link-container .icon-link span {
+  font-size: 15px;
 }
 
 /* main 파트 가장 아래의 마우스 아이콘 */
