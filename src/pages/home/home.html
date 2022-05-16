@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./styles/main/main.css" />
     <!-- reset.css -->
     <link rel="stylesheet" href="../../config/styles/reset.css" />
+    <!-- 기본 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Single+Day&display=swap"
+      rel="stylesheet"
+    />
+
     <title>MEGA BOX Clone Coding</title>
   </head>
   <body>
@@ -16,53 +24,254 @@
 
     <div class="container">
       <!-- header -->
-      <header class="header">
-        <div class="gnb">
-          <nav class="gnb-left">
-            <ul class="gnb-top-link">
-              <a href="#">VIP LOUNGE</a>
-              <a href="#">멤버쉽</a>
-              <a href="#">고객센터</a>
-            </ul>
-            <div class="gnb-bottom-link">
-              <div class="icons">
-                <a class="menu" href="#"></a>
-                <a class="search" href="#"></a>
-              </div>
-              <ul class="gnb-txt-container">
-                <li><a class="gnb-txt gnb-txt-movie" href="#"></a></li>
-                <li><a class="gnb-txt gnb-txt-book" href="#"></a></li>
-                <li><a class="gnb-txt gnb-txt-theater" href="#"></a></li>
-              </ul>
-            </div>
-          </nav>
+      <main class="home-main">
+        <div class="home-main-bg"></div>
 
-          <h1 class="gnb-main">
-            <a class="main" href="#"></a>
-          </h1>
-
-          <nav class="gnb-right">
-            <ul class="gnb-top-link">
-              <a href="#">로그인</a>
-              <a href="#">회원가입</a>
-              <a href="#">빠른예매</a>
-            </ul>
-            <div class="gnb-bottom-link">
-              <ul class="gnb-txt-container">
-                <li><a class="gnb-txt gnb-txt-event" href="#"></a></li>
-                <li><a class="gnb-txt gnb-txt-store" href="#"></a></li>
-                <li><a class="gnb-txt gnb-txt-benefit" href="#"></a></li>
+        <header class="header">
+          <div class="gnb">
+            <nav class="gnb-left">
+              <ul class="gnb-top-link">
+                <a href="#">VIP LOUNGE</a>
+                <a href="#">멤버쉽</a>
+                <a href="#">고객센터</a>
               </ul>
-              <div class="icons">
-                <a class="calendar" href="#"></a>
-                <a class="user" href="#"></a>
+              <div class="gnb-bottom-link">
+                <div class="icons">
+                  <a class="menu" href="#"></a>
+                  <a class="search" href="#"></a>
+                </div>
+                <ul class="gnb-txt-container">
+                  <li><a class="gnb-txt gnb-txt-movie" href="#"></a></li>
+                  <li><a class="gnb-txt gnb-txt-book" href="#"></a></li>
+                  <li><a class="gnb-txt gnb-txt-theater" href="#"></a></li>
+                </ul>
+              </div>
+            </nav>
+
+            <h1 class="gnb-main">
+              <a class="main" href="#"></a>
+            </h1>
+
+            <nav class="gnb-right">
+              <ul class="gnb-top-link">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">빠른예매</a>
+              </ul>
+              <div class="gnb-bottom-link">
+                <ul class="gnb-txt-container">
+                  <li><a class="gnb-txt gnb-txt-event" href="#"></a></li>
+                  <li><a class="gnb-txt gnb-txt-store" href="#"></a></li>
+                  <li><a class="gnb-txt gnb-txt-benefit" href="#"></a></li>
+                </ul>
+                <div class="icons">
+                  <a class="calendar" href="#"></a>
+                  <a class="user" href="#"></a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+
+        <section class="home-main-section">
+          <div class="main-title">
+            <h2>박스오피스</h2>
+            <a href="#">더 많은 영화보기</a>
+          </div>
+          <ul class="main-poster-container">
+            <!-- 범죄도시2 -->
+            <li class="main-poster-item">
+              <div class="poster-box">
+                <p class="poster-rank">1</p>
+                <div class="poster-ad">
+                  <p class="ad-dolby">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-1.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="ad-mx">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-2.png"
+                      alt=""
+                    />
+                  </p>
+                </div>
+                <img
+                  class="poster-img"
+                  src="../../assets/img/home-main/poster1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="poster-info">
+                <button class="like-btn">
+                  <div class="heart-container">
+                    <img
+                      src="../../assets/img/home-main/main-poster-heart.png"
+                      alt="하트 아이콘"
+                    />
+                  </div>
+                  <span>817</span>
+                </button>
+                <button class="booking-btn">예매</button>
+              </div>
+            </li>
+            <!-- 닥터 스트레인지 -->
+            <li class="main-poster-item">
+              <div class="poster-box">
+                <p class="poster-rank">2</p>
+                <div class="poster-ad">
+                  <p class="ad-dolby">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-1.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="ad-mx">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-2.png"
+                      alt=""
+                    />
+                  </p>
+                </div>
+                <img
+                  class="poster-img"
+                  src="../../assets/img/home-main/poster2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="poster-info">
+                <button class="like-btn">
+                  <div class="heart-container">
+                    <img
+                      src="../../assets/img/home-main/main-poster-heart.png"
+                      alt="하트 아이콘"
+                    />
+                  </div>
+                  <span>2.9k</span>
+                </button>
+                <button class="booking-btn">예매</button>
+              </div>
+            </li>
+            <!-- 파이어 스타터 -->
+            <li class="main-poster-item">
+              <div class="poster-box">
+                <p class="poster-rank">3</p>
+                <div class="poster-ad">
+                  <p class="ad-dolby">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-1.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="ad-mx">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-2.png"
+                      alt=""
+                    />
+                  </p>
+                </div>
+                <img
+                  class="poster-img"
+                  src="../../assets/img/home-main/poster3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="poster-info">
+                <button class="like-btn">
+                  <div class="heart-container">
+                    <img
+                      src="../../assets/img/home-main/main-poster-heart.png"
+                      alt="하트 아이콘"
+                    />
+                  </div>
+                  <span>57</span>
+                </button>
+                <button class="booking-btn">예매</button>
+              </div>
+            </li>
+            <!-- 쥬라기월드 -->
+            <li class="main-poster-item">
+              <div class="poster-box">
+                <p class="poster-rank">4</p>
+                <div class="poster-ad">
+                  <p class="ad-dolby">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-1.png"
+                      alt=""
+                    />
+                  </p>
+                  <p class="ad-mx">
+                    <img
+                      src="../../assets/img/home-main/main-poster-ad-2.png"
+                      alt=""
+                    />
+                  </p>
+                </div>
+                <img
+                  class="poster-img"
+                  src="../../assets/img/home-main/poster4.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="poster-info">
+                <button class="like-btn">
+                  <div class="heart-container">
+                    <img
+                      src="../../assets/img/home-main/main-poster-heart.png"
+                      alt="하트 아이콘"
+                    />
+                  </div>
+                  <span>383</span>
+                </button>
+                <button class="booking-btn">예매</button>
+              </div>
+            </li>
+          </ul>
+
+          <div class="main-search-link">
+            <div class="link-container">
+              <div class="search-container">
+                <input type="text" placeholder="영화명을 입력해 주세요" />
+                <img
+                  src="../../assets/img/home-main/main-link-search.png"
+                  alt=""
+                />
               </div>
             </div>
+            <div class="link-container">
+              <div class="icon-link">
+                <img
+                  src="../../assets/img/home-main/main-link-calendar.png"
+                  alt=""
+                />
+                <span>상영시간표</span>
+              </div>
             </div>
-          </nav>
+            <div class="link-container">
+              <div class="icon-link">
+                <img
+                  src="../../assets/img/home-main/main-link-boxoffice.png"
+                  alt=""
+                />
+                <span>박스오피스</span>
+              </div>
+            </div>
+            <div class="link-container">
+              <div class="icon-link">
+                <img
+                  src="../../assets/img/home-main/main-link-ticket.png"
+                  alt=""
+                />
+                <span>빠른예매</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="main-mouse">
+          <img src="../../assets/img/home-main/main-mouse.png" alt="" />
         </div>
-      </header>
-      <!-- main -->
+      </main>
 
       <!-- section1 -->
 
