@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /* 메인 배경 설정 */
 .home-main {
   position: relative;
@@ -257,4 +261,124 @@
 
 .home-main-section .main-poster-container {
   background-color: beige;
+}
+
+.home-main-section .main-poster-container {
+  display: grid;
+  grid-template-columns: repeat(4, 245px);
+  column-gap: 40px;
+  width: 100%;
+
+  margin-bottom: 50px;
+}
+
+.home-main-section .main-poster-container .main-poster-item {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 포스터 공통 설정 */
+.main-poster-item .poster-box {
+  position: relative;
+  width: 100%;
+  height: 352px;
+}
+
+.main-poster-item .poster-box .poster-rank {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  padding: 10px 0 0 15px;
+  font-size: 2em;
+  font-family: "roboto";
+  font-style: italic;
+  text-shadow: 2px 2px 2px rgb(0 0 0 / 80%);
+  color: white;
+  background-image: url("../../../../assets/img/home-main/main-poster-rank-bg.png");
+}
+
+.main-poster-item .poster-ad {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+
+.main-poster-item .poster-ad .ad-dolby {
+  width: 61px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ad-dolby img {
+  width: 45px;
+  height: 19px;
+}
+
+.main-poster-item .poster-ad .ad-mx {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ad-mx img {
+  width: 18px;
+  height: 18px;
+}
+
+.main-poster-item .poster-box .poster-img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-poster-item .poster-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.main-poster-item .poster-info .like-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 36px;
+  padding: 0 5px;
+  color: #fff;
+  font-size: 0.8667em;
+  font-weight: 400;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main-poster-item .poster-info .like-btn .heart-container {
+  /* display: inline-block; */
+  width: 17px;
+  height: 15px;
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+.main-poster-item .poster-info .booking-btn {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  color: #fff;
+  line-height: 36px;
+  border: 0;
+  border-radius: 4px;
+  background: #037b94;
+  font-size: 15px;
+  font-weight: 400;
 }
