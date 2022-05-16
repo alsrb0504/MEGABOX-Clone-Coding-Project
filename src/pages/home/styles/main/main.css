@@ -54,10 +54,8 @@
   left: 0;
   width: 100%;
   z-index: 10;
-
-  /* 추후 적용해야 할 배경색 */
-  /* background-color: rgba(0, 0, 0, 0.3); */
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(126, 124, 124, 0.5);
 }
 
 .gnb {
