@@ -1,0 +1,222 @@
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.main-benefit {
+    overflow: hidden;
+    position: relative;
+    min-height: 900px;
+    padding: 0 0 100px 0;
+  }
+.main-benefit:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 513px;
+    bottom: 0;
+    background-color: rgba(80, 51, 150, 1);
+  }
+   .main-benefit .wrap {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+  }
+   .main-benefit .tit-util {
+    padding: 50px 0 0 0;
+  }
+   .main-benefit .tit-util .tit {
+    float: left;
+  }
+   .main-benefit .tit-util .btn-more {
+    float: right;
+    display: block;
+    width: 16px;
+    height: 24px;
+    background: url(https://img.megabox.co.kr/static/pc/images/common/btn/btn-more-cross-purple.png)
+      no-repeat;
+    font-size: 0;
+    line-height: 0;
+    margin-top: 14px;
+  }
+   .main-benefit .slider {
+    overflow: hidden;
+    position: relative;
+    width: 687px;
+    height: 325px;
+    background-color: rgba(255, 255, 255, 1.0);
+  }
+   .main-benefit .slider .slider-view {
+    position: absolute;
+    height: 325px;
+    font-size: 0;
+    line-height: 0;
+  }
+   .main-benefit .slider .slider-view .cell {
+    width: 934px;
+    height: 325px;
+  }
+   .main-benefit .slider .slider-view .cell .position {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: top 0.5s;
+  }
+   .main-benefit .slider .slider-view .cell .position a {
+    display: block;
+  }
+   .main-benefit .slider .slider-view .cell .position .txt {
+    position: absolute;
+    left: 0;
+    transition: top 0.5s ease;
+  }
+   .main-benefit .slider .slider-view .cell .position .txt a {
+    width: 300px;
+    height: 230px;
+  }
+   .main-benefit .slider .slider-view .cell .position .txt a img {
+    max-width: 300px;
+    max-height: 230px;
+  }
+   .main-benefit .slider .slider-view .cell .position .bg {
+    position: absolute;
+    top: 0;
+    transition: left 0.5s;
+  }
+   .main-benefit .slider .slider-control {
+    position: absolute;
+    left: 0;
+    bottom: 42px;
+  }
+   .main-benefit .slider .slider-control .page {
+    float: left;
+    width: 190px;
+    height: 3px;
+    background-color: rgba(128, 128, 128, 1);
+    margin-top: 5px;
+  }
+   .main-benefit .slider .slider-control .page span {
+    float: left;
+    height: 100%;
+  }
+   .main-benefit .slider .slider-control .page .on {
+    background-color: rgba(80, 51, 150, 1);
+  }
+   .main-benefit .slider .slider-control .util {
+    float: left;
+    padding: 0 10px 0 15px;
+  }
+   .main-benefit .slider .slider-control button {
+    float: left;
+    border: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-size: 0;
+    line-height: 0;
+    height: 12px;
+    margin-left: 8px;
+  }
+   .main-benefit .slider .slider-control .util .btn-prev {
+    width: 7px;
+    background-image: url(images/btn-benefit-slider-prev.png);
+  }
+   .main-benefit .slider .slider-control .util .btn-next {
+    width: 7px;
+    background-image: url(images/btn-benefit-slider-next.png);
+  }
+   .main-benefit .slider .slider-control .util .btn-play {
+    display: none;
+    width: 6px;
+    background-image: url(https://www.megabox.co.kr/static/pc/images/main/btn-benefit-slider-play.png);
+  }
+   .main-benefit .slider .slider-control .util .btn-pause {
+    display: none;
+    width: 6px;
+    background-image: url(https://www.megabox.co.kr/static/pc/images/main/btn-benefit-slider-pause.png);
+  }
+   .main-benefit .slider .slider-control .util .btn-play.on {
+    display: block;
+  }
+   .main-benefit .slider .slider-control .util .btn-pause.on {
+    display: block;
+  }
+   .main-benefit .slider .slider-control .page-count {
+    float: left;
+    line-height: 14px;
+    color: rgba(68, 68, 68, 1.0);
+  }
+  
+   .main-benefit .brn-ad {
+    position: relative;
+    min-width: 1100px;
+  }
+   .main-benefit .brn-ad .banner .size {
+    float: left;
+    width: 441px;
+    height: 194px;
+    font-size: 0;
+    line-height: 0;
+    margin-right: 20px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+   .main-benefit .brn-ad .banner .size.small {
+    width: 204px;
+    height: 204px;
+  }
+   .main-benefit .brn-ad .banner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+   .main-benefit .brn-ad .ad-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+   .main-benefit .brn-ad .ad-img img {
+    vertical-align: top;
+    border-radius: 5px;
+  }
+   .main-benefit .menu-link  {
+    padding: 50px 0 0 0;
+  }
+  .main-benefit .menu-link a {
+    color: rgba(255, 255, 255, 1.0);
+}
+   .main-benefit .menu-link .cell {
+    float: left;
+    width: 20%;
+    display: block;
+  }
+   .main-benefit .menu-link .cell a {
+    display: block;
+    padding: 60px 0 0 0;
+    text-align: center;
+    background-repeat: no-repeat;
+  }
+   .main-benefit .menu-link .cell.vip a {
+    background-image: url(images/ico-vip-main.png);
+    background-position: center 2px;
+  }
+   .main-benefit .menu-link .cell.membership a {
+    background-image: url(images/ico-membership-main.png);
+    background-position: center 2px;
+  }
+   .main-benefit .menu-link .cell.card a {
+    background-image: url(images/ico-card-main.png);
+    background-position: center 2px;
+  }
+   .main-benefit .menu-link .cell.event a {
+    background-image: url(images/ico-event-main.png);
+    background-position: center 2px;
+  }
+   .main-benefit .menu-link .cell.store a {
+    background-image: url(images/ico-store-main.png);
+    background-position: center 2px;
+  }
+   
