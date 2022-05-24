@@ -1,8 +1,57 @@
-/* 헤더 설정 */
-.header {
+/* 메인 배경 설정 */
+.home-main {
+  position: relative;
+  width: 100%;
+  min-height: 91px + 520px;
+  /* padding-bottom: 80px; */
+}
+
+.home-main-bg {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url("../../../../assets/img/description/main/bg-poster.jpg");
+  background-repeat: no-repeat;
+  background-position: 75% 10%;
+  background-size: cover;
+
+  z-index: -1;
+}
+
+.home-main-bg::before {
+  content: ";";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(85, 63, 5, 1) 0%,
+    rgba(23, 17, 1, 0) 50%,
+    rgba(85, 63, 5, 1) 100%
+  );
+  z-index: 3;
+}
+
+.home-main-bg::after {
+  content: ";";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 1, 21, 0.7);
+  z-index: 2;
+}
+
+/* 헤더 설정 */
+.header {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
   width: 100%;
   z-index: 10;
   background-color: white;
@@ -162,4 +211,123 @@
 
 .gnb .gnb-right .gnb-bottom-link .gnb-txt-container .gnb-txt-benefit {
   background-image: url("../../../../assets/img/description/header/benefit-text.png");
+}
+
+/* 메인 부분 */
+.main-section {
+  position: relative;
+  width: 1100px;
+  height: 520px;
+}
+
+/* 메인 부분 포스터 파트 */
+.main-section .main-poster {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-section .main-poster .poster-img {
+  height: 374px;
+  margin-bottom: 8px;
+}
+
+.main-section .main-poster .main-poster-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section .main-poster .main-poster-btns button {
+  width: 130px;
+  height: 46px;
+  border: none;
+  outline: none;
+}
+
+.main-booking-btn {
+  padding: 0;
+  margin: 0;
+  line-height: 44px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #329eb1;
+}
+
+.main-dolby-btn {
+  border-radius: 0 5px 5px 0;
+  background-color: #00586a;
+}
+
+/* main info */
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  /* background-color: beige; */
+  height: 100%;
+}
+
+.main-info .top-info {
+  margin-top: 55px;
+  color: white;
+}
+
+.top-info .goods {
+  display: inline-block;
+  margin-left: 6px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ccc;
+}
+
+.top-info .movie-title {
+  margin-bottom: 10px;
+  font-size: 3.06666em;
+  font-weight: 400;
+  line-height: 1.2;
+  text-shadow: 2px 2px 10px rgb(0 0 0 / 70%);
+}
+
+.top-info .movie-roundup {
+  display: inline-block;
+  font-size: 1.3333em;
+  margin-bottom: 15px;
+}
+
+.top-info .movie-info-btns {
+  display: flex;
+}
+
+.top-info .movie-info-btns button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 36px;
+  /* padding: 0 10px; */
+  text-align: center;
+  border: 1px solid #706f72;
+  border-radius: 4px;
+
+  color: white;
+}
+
+.top-info .movie-info-btns button:first-child {
+  margin-right: 6px;
+}
+
+.top-info .movie-info-btns button img {
+  margin-right: 4px;
+  width: 17px;
 }
