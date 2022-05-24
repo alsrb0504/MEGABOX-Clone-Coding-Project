@@ -332,6 +332,7 @@ footer .bottom .info {
     float: left;
     font-size: .8667em;
     letter-spacing: 0;
+    width: 700px;
 }
 
 footer .bottom .info p {
