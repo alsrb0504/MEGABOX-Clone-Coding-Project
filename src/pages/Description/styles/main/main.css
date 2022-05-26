@@ -272,6 +272,20 @@
   z-index: 3;
 }
 
+.main-section .main-poster .poster-age {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+.main-section .main-poster .poster-down {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.45;
+}
+
 .main-section .main-poster .poster-img {
   height: 374px;
   margin-bottom: 8px;
@@ -292,9 +306,9 @@
 .main-booking-btn {
   padding: 0;
   margin: 0;
-  line-height: 44px;
+  /* line-height: 44px; */
   color: #fff;
-  font-size: 1.2em;
+  font-size: 18px;
   font-weight: 700;
   text-align: center;
   border: 0;
@@ -360,7 +374,6 @@
 
   width: 100px;
   height: 36px;
-  /* padding: 0 10px; */
   text-align: center;
   border: 1px solid #706f72;
   border-radius: 4px;
@@ -392,7 +405,6 @@
 
   margin-left: 35px;
   height: 100%;
-  /* background-color: tomato; */
 }
 
 .bottom-info .cur-movie-info:first-child {
@@ -400,26 +412,38 @@
 }
 
 .bottom-info .cur-movie-info .sub-info-title {
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
   margin-bottom: 15px;
   font-size: 14px;
   color: #ccc;
 }
 
+.bottom-info .cur-movie-info .sub-info-title img {
+  margin-left: 6px;
+}
+
 .bottom-info .cur-movie-info .sub-info-desc {
-  /* background-color: pink; */
   display: flex;
+  align-items: flex-end;
 }
 
 .bottom-info .cur-movie-info img {
-  /* width: 27px; */
-  /* height: 27px; */
-
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 .bottom-info .cur-movie-info span {
+  margin-right: 4px;
+  font-size: 30px;
   font-weight: 600;
   color: white;
-  font-size: 24px;
+}
+
+.bottom-info .cur-movie-info .grade {
+  color: #59bec9;
+}
+
+.bottom-info .cur-movie-info p {
+  color: #ccc;
+  font-size: 14px;
 }
