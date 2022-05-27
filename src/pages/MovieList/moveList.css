@@ -1,2 +1,191 @@
 /* 영화 상세 페이지 공통 설정 */
 /* 가능하면 건드리지 말 것. */
+/* 헤더 */
+/* 헤더 설정 */
+.header {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 1px solid rgba(126, 124, 124, 0.5);
+}
+
+.gnb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1100px;
+  height: 91px;
+  margin: auto;
+}
+
+/* 헤더 로고 이미지 */
+.gnb-main {
+  width: 140px;
+  height: 47px;
+
+  background-image: url("../../assets/img/logo/logo.png");
+}
+
+.gnb .gnb-left,
+.gnb .gnb-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.gnb .gnb-left .gnb-top-link,
+.gnb .gnb-right .gnb-top-link {
+  margin-bottom: 12px;
+}
+
+/* 헤더 좌측 */
+.gnb .gnb-left .gnb-top-link a {
+  color: #444;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.gnb .gnb-left .gnb-bottom-link {
+  display: flex;
+}
+
+.gnb .gnb-left .gnb-bottom-link .icons {
+  margin-right: 95px;
+}
+
+.gnb .gnb-left .gnb-bottom-link .icons a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gnb .gnb-left .gnb-bottom-link .icons .menu {
+  background-image: url("../../assets/img/description/header/ico-menu.png");
+}
+
+.gnb .gnb-left .gnb-bottom-link .icons .search {
+  background-image: url("../../assets/img/description/header/ico-search.png");
+}
+
+.gnb .gnb-left .gnb-bottom-link .gnb-txt-container {
+  display: flex;
+}
+
+.gnb .gnb-left .gnb-bottom-link .gnb-txt-container li {
+  display: flex;
+  margin-top: 7px;
+  height: 26px;
+}
+
+.gnb .gnb-left .gnb-bottom-link .gnb-txt-container .gnb-txt {
+  margin-right: 55px;
+  width: 31px;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.gnb .gnb-left .gnb-bottom-link .gnb-txt-container .gnb-txt-movie {
+  background-image: url("../../assets/img/description/header/movie-text.png");
+}
+
+.gnb .gnb-left .gnb-bottom-link .gnb-txt-container .gnb-txt-book {
+  background-image: url("../../assets/img/description/header/booking-text.png");
+}
+
+.gnb .gnb-left .gnb-bottom-link .gnb-txt-container .gnb-txt-theater {
+  background-image: url("../../assets/img/description/header/theater-text.png");
+}
+
+/* 헤더 우측 */
+.gnb .gnb-right .gnb-top-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gnb .gnb-right .gnb-top-link a {
+  color: #444;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.gnb .gnb-right .gnb-bottom-link {
+  display: flex;
+}
+
+.gnb .gnb-right .gnb-bottom-link .icons {
+  margin-left: 65px;
+}
+
+.gnb .gnb-right .gnb-bottom-link .icons a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gnb .gnb-right .gnb-bottom-link .icons .calendar {
+  background-image: url("../../assets/img/description/header/ico-schedule.png");
+}
+
+.gnb .gnb-right .gnb-bottom-link .icons .user {
+  background-image: url("../../assets/img/description/header/ico-user.png");
+}
+
+.gnb .gnb-right .gnb-bottom-link .gnb-txt-container {
+  display: flex;
+}
+
+.gnb .gnb-right .gnb-bottom-link .gnb-txt-container li {
+  display: flex;
+  margin-top: 7px;
+  height: 26px;
+}
+
+.gnb .gnb-right .gnb-bottom-link .gnb-txt-container .gnb-txt {
+  margin-left: 60px;
+  width: 45px;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.gnb .gnb-right .gnb-bottom-link .gnb-txt-container .gnb-txt-event {
+  background-image: url("../../assets/img/description/header/event-text.png");
+}
+
+.gnb .gnb-right .gnb-bottom-link .gnb-txt-container .gnb-txt-store {
+  background-image: url("../../assets/img/description/header/store-text.png");
+}
+
+.gnb .gnb-right .gnb-bottom-link .gnb-txt-container .gnb-txt-benefit {
+  background-image: url("../../assets/img/description/header/benefit-text.png");
+}
+
+.header-bottom {
+  width: 100%;
+  height: 42px;
+  background-color: #f8f8fa;
+}
+
+.header-bottom .header-bottom-container {
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+
+.header-bottom .header-bottom-container .header-bottom-nav {
+  font-size: 15px;
+  color: #444;
+  text-decoration: none;
+}
+
+.header-bottom .header-bottom-container .header-bottom-arrow {
+  margin: 0 10px;
+}
