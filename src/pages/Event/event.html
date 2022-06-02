@@ -16,6 +16,7 @@
     <!-- css 연결 -->
     <link rel="stylesheet" href="./event.css" />
     <link rel="stylesheet" href="./styles/section2/section2.css" />
+    <link rel="stylesheet" href="./styles/section1/section1.css" />
 
     <title>Document</title>
   </head>
@@ -100,9 +101,203 @@
           </div>
         </main>
       </main>
-
       <!-- section1 : 진행중인 이벤트 + 추천 이벤트 -->
+      <script>
+        var page = 1;
+        function move_next() {
+          document.querySelector('.box').classList.remove('prev_trans' + page);
+          document.querySelector('.bullet' + page).classList.remove('now');
+          document.querySelector('.box').classList.add('next_trans' + page);
+          page = page + 1;
+          document.querySelector('.bullet' + page).classList.add('now');
+        }
+        function move_prev() {
+          document.querySelector('.box').classList.remove('prev_trans' + page);
+          document.querySelector('.bullet' + page).classList.remove('now');
+          page = page - 1;
+          document.querySelector('.box').classList.add('prev_trans' + page);
+          document.querySelector('.box').classList.remove('next_trans' + page);
+          document.querySelector('.bullet' + page).classList.add('now');
 
+        }
+
+      </script>
+
+
+
+
+      <div class="section1">
+        <div class="wrap">
+          <h2 class="title">진행중인 이벤트</h2>
+          <div class="tab">
+            <ul>
+              <li class="all">
+                <a href="" title="전체">전체</a>
+              </li>
+              <li class="megapick">
+                <a href="" title="메가Pick 탭으로 이동">메가Pick</a>
+              </li>
+              <li class="movie">
+                <a href="" title="영화 탭으로 이동">영화</a>
+              </li>
+              <li class="theater">
+                <a href="" title="극장 탭으로 이동">극장</a>
+              </li>
+              <li class="discount">
+                <a href="" title="제휴/할인 탭으로 이동">제휴/할인</a>
+              </li>
+              <li class="premiere">
+                <a href="" title="시사회/무대인사 탭으로 이동">시사회/무대인사</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="top">
+            <p class="name">추천 이벤트</p>
+            <div class="swiper">
+              <span class="bullet1 now"></span>
+              <span class="bullet2"></span>
+              <span class="bullet3"></span>
+              <span class="bullet4"></span>
+              <span class="bullet5"></span>
+              <span class="bullet6"></span>
+              <span class="bullet7"></span>
+              <span class="bullet8"></span>
+              <span class="bullet9"></span>
+            </div>
+            <div class="page-no">
+              <span title="현재 페이지" class="now">1</span>
+              /
+              <span title="전체 페이지" class="total">9</span>
+            </div>
+            <div class="util">
+              <button onclick="move_prev()" type="button" class="prev" tabindex="0" role="button">이전 이벤트 보기</button>
+              <button onclick="move_next()" type="button" class="next" tabindex="0" role="button">다음 이벤트 보기</button>
+              <button type="button" class="pause on">일시정지</button>
+              <button type="button" class="play">자동재생</button>
+            </div>
+            <div class="control">
+              <button onclick="move_prev()" type="button" class="prev" tabindex="0" role="button">이전 이벤트 보기</button>
+              <button onclick="move_next()" type="button" class="next" tabindex="0" role="button">다음 이벤트 보기</button>
+            </div>
+            <div class="elem">
+              <div class="box">
+                <div class="slide">
+                  <a href="" title="[알뜰교통카드 X 메가박스] 알뜰하게 영화보고 콤보 구매하는 방법 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/hqwZ76566sktDWXzc0eyV3uGkWBVgHcH.jpg" alt="[알뜰교통카드 X 메가박스] 알뜰하게 영화보고 콤보 구매하는 방법">
+                    </p>
+                    <div class="cont">
+                      <p class="title">[알뜰교통카드 X 메가박스] 알뜰하게 영화보고 콤보 구매하는 방법</p>
+                      <p class="date">2021.11.04 ~ 2022.12.31</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="[에버랜드X메가박스] 제휴 할인 프로모션! 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/IImG2HpprzSLLFbXwDuGt1Knb4B2Ljc7.jpg" alt="[에버랜드X메가박스] 제휴 할인 프로모션!">
+                    </p>
+                    <div class="cont">
+                      <p class="title">[에버랜드X메가박스] 제휴 할인 프로모션!</p>
+                      <p class="date">2022.05.31 ~ 2022.12.31</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="나도 영화 평론가! 관람평 쓰고 포인트 받자! 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/t27cRA3hbn6TMmTm0c7OUaQ37TuxGLOh.jpg" alt="나도 영화 평론가! 관람평 쓰고 포인트 받자!">
+                    </p>
+                    <div class="cont">
+                      <p class="title">나도 영화 평론가! 관람평 쓰고 포인트 받자!</p>
+                      <p class="date">2022.01.01 ~ 2022.06.30</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="모든 것이 끝난다!! <쥬라기 월드: 도미니언> 1PICK 이벤트 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/inNIks4YnPhpkOOETXbMMp8HsAfpmTTJ.jpg" alt="모든 것이 끝난다!! <쥬라기 월드: 도미니언> 1PICK 이벤트">
+                    </p>
+                    <div class="cont">
+                      <p class="title">모든 것이 끝난다!! <쥬라기 월드: 도미니언> 1PICK 이벤트</p>
+                      <p class="date">2022.06.01 ~ 2022.06.21</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="신규 & 휴면회원 만반잘부! 모두 혜택 받아가세요 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/PaafbTzHLzAZslfTq3eRZS19bGTV7sG7.jpg" alt="신규 & 휴면회원 만반잘부! 모두 혜택 받아가세요">
+                    </p>
+                    <div class="cont">
+                      <p class="title">신규 & 휴면회원 만반잘부! 모두 혜택 받아가세요</p>
+                      <p class="date">2022.01.01 ~ 2022.12.31</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="WELCOME TO DOLBY CINEMA LAND 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/exDNK2d7mFQSo7jBZIjaXMNWWs2e7kpW.jpg" alt="WELCOME TO DOLBY CINEMA LAND">
+                    </p>
+                    <div class="cont">
+                      <p class="title">WELCOME TO DOLBY CINEMA LAND</p>
+                      <p class="date">2022.05.04 ~ 2022.07.31</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="U+멤버십 고객 영화 2,000원 할인 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/poxTnLz5oVfwTJlW6TINBrEKv3jP2GIJ.jpg" alt="U+멤버십 고객 영화 2,000원 할인">
+                    </p>
+                    <div class="cont">
+                      <p class="title">U+멤버십 고객 영화 2,000원 할인</p>
+                      <p class="date">2021.02.01 ~ 2022.12.31</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="페이코 회원이라면 영화가 6천원! 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/7VlOJplWOxDnBj1SV5AEgWTkIRxA3j5Y.png" alt="페이코 회원이라면 영화가 6천원!">
+                    </p>
+                    <div class="cont">
+                      <p class="title">페이코 회원이라면 영화가 6천원!</p>
+                      <p class="date">2022.05.31 ~ 2022.06.30</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="내 차 보험료 확인하고 영화 1만원 할인쿠폰 받으세요! 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/AI04iIPQZY5XaUzph8zOxten7A1CNBY7.jpg" alt="내 차 보험료 확인하고 영화 1만원 할인쿠폰 받으세요!">
+                    </p>
+                    <div class="cont">
+                      <p class="title">내 차 보험료 확인하고 영화 1만원 할인쿠폰 받으세요!</p>
+                      <p class="date">2022.04.18 ~ 2022.12.31</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="slide">
+                  <a href="" title="[알뜰교통카드 X 메가박스] 알뜰하게 영화보고 콤보 구매하는 방법 상세보기">
+                    <p class="img">
+                      <img src="../../assets/img/event/section1/hqwZ76566sktDWXzc0eyV3uGkWBVgHcH.jpg" alt="[알뜰교통카드 X 메가박스] 알뜰하게 영화보고 콤보 구매하는 방법">
+                    </p>
+                    <div class="cont">
+                      <p class="title">[알뜰교통카드 X 메가박스] 알뜰하게 영화보고 콤보 구매하는 방법</p>
+                      <p class="date">2021.11.04 ~ 2022.12.31</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- section2 : 메가 Picx -->
       <section class="section2">
         <!-- 컨테이너 -->
