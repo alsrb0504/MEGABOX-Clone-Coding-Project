@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./event.css" />
     <link rel="stylesheet" href="./styles/section2/section2.css" />
     <link rel="stylesheet" href="./styles/section1/section1.css" />
+    <link rel="stylesheet" href="./styles/footer/footer.css" />
 
     <title>Document</title>
   </head>
@@ -101,31 +102,8 @@
           </div>
         </main>
       </main>
+      <script src="../Event/js/section1/section1.js"></script>
       <!-- section1 : 진행중인 이벤트 + 추천 이벤트 -->
-      <script>
-        var page = 1;
-        function move_next() {
-          document.querySelector('.box').classList.remove('prev_trans' + page);
-          document.querySelector('.bullet' + page).classList.remove('now');
-          document.querySelector('.box').classList.add('next_trans' + page);
-          page = page + 1;
-          document.querySelector('.bullet' + page).classList.add('now');
-        }
-        function move_prev() {
-          document.querySelector('.box').classList.remove('prev_trans' + page);
-          document.querySelector('.bullet' + page).classList.remove('now');
-          page = page - 1;
-          document.querySelector('.box').classList.add('prev_trans' + page);
-          document.querySelector('.box').classList.remove('next_trans' + page);
-          document.querySelector('.bullet' + page).classList.add('now');
-
-        }
-
-      </script>
-
-
-
-
       <div class="section1">
         <div class="wrap">
           <h2 class="title">진행중인 이벤트</h2>
@@ -167,15 +145,15 @@
               <span class="bullet9"></span>
             </div>
             <div class="page-no">
-              <span title="현재 페이지" class="now">1</span>
+              <span title="현재 페이지" class="now"><script>document.write(page)</script></span>
               /
               <span title="전체 페이지" class="total">9</span>
             </div>
             <div class="util">
               <button onclick="move_prev()" type="button" class="prev" tabindex="0" role="button">이전 이벤트 보기</button>
               <button onclick="move_next()" type="button" class="next" tabindex="0" role="button">다음 이벤트 보기</button>
-              <button type="button" class="pause on">일시정지</button>
-              <button type="button" class="play">자동재생</button>
+              <button onclick="pause()" type="button" class="pause">일시정지</button>
+              <button onclick="play()" type="button" class="play on">자동재생</button>
             </div>
             <div class="control">
               <button onclick="move_prev()" type="button" class="prev" tabindex="0" role="button">이전 이벤트 보기</button>
@@ -613,7 +591,76 @@
       </section>
 
       <!-- footer -->
-      <footer></footer>
+      <footer>
+        <div class="top">
+          <div class="part">
+            <ul class="link">
+              <li><a href="" title="회사소개 페이지로 이동">회사소개</a></li>
+              <li><a href="" title="인재채용 페이지로 이동">인재채용</a></li>
+              <li><a href="" title="사회공헌 페이지로 이동">사회공헌</a></li>
+              <li>
+                <a href="" title="제휴/광고/부대사업문의 페이지로 이동"
+                  >제휴/광고/부대사업문의</a
+                >
+              </li>
+              <li><a href="" title="이용약관 페이지로 이동">이용약관</a></li>
+              <li>
+                <a href="" title="위치기반서비스 이용약관 페이지로 이동"
+                  >위치기반서비스 이용약관</a
+                >
+              </li>
+              <li class="privacy">
+                <a href="" title="개인정보처리방침 페이지로 이동"
+                  ><strong>개인정보처리방침</strong></a
+                >
+              </li>
+              <li><a href="" title="윤리경영 페이지로 이동">윤리경영</a></li>
+            </ul>
+            <a href="" class="search" title="극장찾기">
+              <img src="../../assets/icons/ico-footer-search.png" alt="" />
+              극장찾기
+            </a>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="part">
+            <div class="logo">MEGABOX : Life Theater</div>
+            <div class="info">
+              <div>
+                <p>
+                  서울특별시 마포구 월드컵로 240, 지상2층(성산동,
+                  월드컴주경기장)
+                </p>
+                <p>ARS 1544-0070</p>
+              </div>
+              <p>대표자명 홍정인</p>
+              <p>&middot; 개인정보책임자 공성진</p>
+              <p>&middot; 사업자등록번호 211-86-59478</p>
+              <p>&middot; 통신판매업신고번호 제 2020-서울마포-4545 호</p>
+              <p class="copy">
+                COPYRIGHT &copy; MegaboxJoongAng, Inc. All rights reserved
+              </p>
+            </div>
+            <div class="sns">
+              <a href="" target="_blank" tktle="MEGABOX 유튜브 페이지로 이동"
+                ><img src="../../assets/icons/ico-youtubeN.png" alt=""
+              /></a>
+              <a
+                href=""
+                target="_blank"
+                title="MEGABOX 인스타그램 페이지로 이동"
+                ><img src="../../assets/icons/ico-instagramN.png" alt=""
+              /></a>
+              <a href="" target="_blank" title="MEGABOX 페이스북 페이지로 이동"
+                ><img src="../../assets/icons/ico-facebookN.png" alt=""
+              /></a>
+              <a href="" target="_blank" title="MEGABOX 트위터 페이지로 이동"
+                ><img src="../../assets/icons/ico-twitterN.png" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
