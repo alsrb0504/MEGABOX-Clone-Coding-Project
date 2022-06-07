@@ -508,7 +508,11 @@ margin-bottom:40px;
 }
 .movie-list ol li .movie-list-info .movie-score .wrap .summary {
 	overflow:hidden;
-	height:152px
+	height:152px;
+	line-height: 1.45;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
 }
 .movie-list ol li .movie-list-info .movie-score .my-score {
 	overflow:hidden;
