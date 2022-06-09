@@ -1,0 +1,1164 @@
+/*  inner-wrap  */
+.inner-wrap-sh {
+  /*  width: 1100px;  제거 부분 */
+  width: 1100px;
+
+  margin: 0 auto;
+}
+/*  h2.tit.small.mt70 */
+h2.tit.small {
+  padding: 0 0 16px 0;
+  font-size: 1.4666em;
+  color: #503396;
+}
+h2.tit {
+  padding: 0 0 26px 0;
+  font-size: 1.8666em;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  color: #222;
+}
+.mt70 {
+  margin-top: 70px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+/*  ul  */
+.movie-greeting ul {
+  overflow: hidden;
+  border-top: 1px solid #555;
+}
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*  li  */
+.movie-greeting ul li {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  border-bottom: 1px solid #eaeaea;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+/*  p.greeting-date */
+.movie-greeting ul li .greeting-date {
+  width: 210px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 30px;
+  margin: -15px 0 0 0;
+  line-height: 30px;
+  font-size: 1.6em;
+  font-weight: 400;
+  text-align: center;
+  font-family: Roboto, Dotum, "돋움", sans-serif;
+}
+.movie-greeting p {
+  margin: 0;
+  padding: 0;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/*  div.greeting-information  */
+.movie-greeting ul li .greeting-infomation {
+  overflow: hidden;
+  display: inline-table;
+  width: 890px;
+  table-layout: fixed;
+  margin-left: 210px;
+  border-bottom: 1px solid #eaeaea;
+}
+div {
+  display: block;
+}
+/*  p.greeting-location */
+.movie-greeting ul li .greeting-infomation p.greeting-location {
+  width: 230px;
+  padding: 0 15px;
+}
+.movie-greeting ul li .greeting-infomation p {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 0;
+  line-height: 1.4;
+}
+.movie-greeting p {
+  margin: 0;
+  padding: 0;
+}
+/*  p.greeting-time */
+.movie-greeting ul li .greeting-infomation p.greeting-time {
+  width: 110px;
+}
+.movie-greeting ul li .greeting-infomation p {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 0;
+  line-height: 1.4;
+}
+/*  p.greeting-moment */
+.movie-greeting ul li .greeting-infomation p.greeting-moment {
+  width: 100px;
+}
+.movie-greeting ul li .greeting-infomation p {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 0;
+  line-height: 1.4;
+}
+/*  p.greeting-person */
+.movie-greeting ul li .greeting-infomation p.greeting-person {
+  width: 335px;
+  padding-right: 10px;
+}
+.movie-greeting ul li .greeting-infomation p {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 0;
+  line-height: 1.4;
+}
+/*  a.button.gray.soldOutBtn  */
+.movie-greeting ul li .greeting-infomation p.btn a,
+.movie-greeting ul li .greeting-infomation p.btn button,
+.movie-greeting ul li .greeting-infomation p.btn span {
+  display: inline-block;
+}
+.button.gray {
+  color: #fff;
+  line-height: 36px;
+  border: 0;
+  background: #666;
+}
+a.button {
+  text-decoration: none;
+}
+a:link {
+  color: #444;
+  text-decoration: none;
+}
+.button {
+  display: inline-block;
+  height: 36px;
+  margin: 0;
+  padding: 0 15px;
+  text-align: center;
+  line-height: 34px;
+  color: #503396;
+  font-weight: 400;
+  border-radius: 4px;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+  text-decoration: none;
+  border: 1px solid #503396;
+  vertical-align: middle;
+  background-color: #fff;
+  cursor: pointer;
+}
+/*  p.btn.gray  */
+.movie-greeting ul li .greeting-infomation p.btn {
+  width: 100px;
+}
+.movie-greeting ul li .greeting-infomation p {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 0;
+  line-height: 1.4;
+}
+.movie-greeting ul li .greeting-infomation p.btn a,
+.movie-greeting ul li .greeting-infomation p.btn button,
+.movie-greeting ul li .greeting-infomation p.btn span {
+  display: inline-block;
+}
+.button.gray {
+  color: #fff;
+  line-height: 36px;
+  border: 0;
+  background: #666;
+}
+a.button {
+  text-decoration: none;
+}
+/*  div.btn-more  */
+.reserve.movie-greeting .btn-more {
+  padding: 0;
+  border: 1px solid #eaeaea;
+  border-width: 0 1px;
+}
+.movie-greeting .btn-more {
+  padding-top: 20px;
+}
+.btn-more {
+  position: relative;
+  padding: 40px 0 0 0;
+}
+/*  button.btn  */
+.btn-more .btn {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  border: 0;
+  border-bottom: 1px solid #eaeaea;
+  background-color: transparent;
+  color: #666;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+button {
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.15;
+}
+/*  i.iconset.ico-btn-more-arr  */
+.movie-greeting .btn-more i {
+  margin-left: 4px;
+  transform: rotate(180deg);
+}
+.movie-greeting .btn-more i {
+  margin-left: 4px;
+  transform: rotate(180deg);
+}
+.btn-more .btn i {
+  margin-left: 6px;
+}
+.ico-btn-more-arr {
+  width: 12px;
+  height: 7px;
+  background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-btn-more-arr.png);
+}
+/*  div.tit-util.mt70.mb15.oneContent */
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.mt70 {
+  margin-top: 70px !important;
+}
+/*  div.tit-util.mt70.mb15.oneContent::before */
+.tit-util:after,
+.tit-util:before {
+  content: "";
+  display: block;
+}
+/*  h2.tit.small  */
+.tit-util .tit {
+  float: left;
+  padding: 0 !important;
+  line-height: 1.1;
+}
+/*  span.font-gblue */
+.font-gblue {
+  color: #01738b !important;
+}
+/*  div.movie-idv-story oneContent  */
+.movie-idv-story {
+  display: block;
+  position: relative;
+  min-height: 500px;
+}
+/*  li.type03 */
+
+/*  div.story-area  */
+.movie-idv-story ul li .story-area {
+  display: block;
+  width: 100%;
+}
+/*  div.user-prof */
+.movie-idv-story ul li .story-area .user-prof {
+  position: relative;
+  float: left;
+  width: 105px;
+  text-align: center;
+}
+/*  div.prof-img  */
+.movie-idv-story ul li .story-area .user-prof .prof-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  overflow: hidden;
+}
+/*  p.user-id */
+.movie-idv-story ul li .story-area .user-prof .user-id {
+  margin: 0;
+  width: 105px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9333em;
+  line-height: 1.1;
+}
+/*  div.story-box */
+.movie-idv-story ul li.type03 .story-area .story-box {
+  border-radius: 0 10px 10px 10px;
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+}
+.movie-idv-story ul li .story-area .story-box {
+  float: right;
+  position: relative;
+  width: calc(100% - 105px);
+  height: 84px;
+  padding: 0;
+}
+/*  div.story-wrap  */
+.movie-idv-story ul li.type03 .story-area .story-box .story-wrap {
+  display: table;
+  width: 100%;
+  height: 84px;
+}
+/*  div.story-cont  */
+.movie-idv-story ul li.type03 .story-area .story-box .story-wrap .story-cont {
+  display: table-cell;
+  float: none;
+  width: 850px;
+  height: 84px;
+  vertical-align: middle;
+  padding-left: 30px;
+  text-align: left;
+  color: #666;
+}
+.movie-idv-story ul li .story-area .story-box .story-cont {
+  display: table;
+  float: left;
+  width: 890px;
+  height: 84px;
+  padding: 0;
+  vertical-align: middle;
+}
+/*  span.font-gblue */
+.font-gblue {
+  color: #01738b !important;
+}
+/*  div.story-write */
+.movie-idv-story ul li.type03 .story-area .story-box .story-wrap .story-write {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/*  a.tooltip-click.oneWrtNonMbBtn  */
+.movie-idv-story
+  ul
+  li.type03
+  .story-area
+  .story-box
+  .story-wrap
+  .story-write
+  a {
+  width: 105px;
+  height: 24px;
+  color: #666;
+  text-decoration: none;
+}
+
+a:link {
+  color: #444;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*  i.iconset.ico-story-write */
+.movie-idv-story
+  ul
+  li.type03
+  .story-area
+  .story-box
+  .story-wrap
+  .story-write
+  a
+  i {
+  margin-right: 5px;
+}
+.ico-story-write {
+  width: 18px;
+  height: 18px;
+  background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-story-write.png);
+}
+.iconset {
+  overflow: hidden;
+  display: inline-block;
+  margin: -1px 0 0 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+i {
+  font-style: italic;
+}
+/*  div.tooltip-cont  */
+div.tooltip-cont.style {
+  width: 225px;
+  height: 80px;
+}
+.tooltip-cont {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: -100px;
+  width: 300px;
+  padding: 20px;
+  color: #222;
+  font-size: 0.9333em;
+  text-align: center;
+  line-height: 1.5;
+  border: 1px solid #d8d9db;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/*  div.wrap.loginTagClick  */
+.tooltip-cont .wrap {
+  position: relative;
+}
+/*  a.font-green  */
+.movie-idv-story
+  ul
+  li.type03
+  .story-area
+  .story-box
+  .story-wrap
+  .story-write
+  a {
+  width: 105px;
+  height: 24px;
+  color: #666;
+  text-decoration: none;
+}
+
+a:link {
+  color: #444;
+  text-decoration: none;
+}
+.font-green {
+  color: #037b94 !important;
+}
+a {
+  background-color: transparent;
+}
+
+/*  i.iconset.ico-arr-right-green */
+.movie-idv-story
+  ul
+  li.type03
+  .story-area
+  .story-box
+  .story-wrap
+  .story-write
+  a
+  i {
+  margin-right: 5px;
+}
+.ico-arr-right-green {
+  overflow: hidden;
+  width: 6px;
+  height: 10px;
+  background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-arr-right-green.png);
+}
+
+.iconset {
+  overflow: hidden;
+  display: inline-block;
+  margin: -1px 0 0 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+i {
+  font-style: italic;
+}
+/*  button.btn-close-tooltip  */
+.movie-idv-story
+  ul
+  li.type03
+  .story-area
+  .story-box
+  .story-wrap
+  .story-write
+  button {
+  width: 105px;
+  height: 24px;
+  color: #666;
+}
+.tooltip-cont .wrap .btn-close-tooltip {
+  position: relative;
+}
+.movie-idv-story ul li button {
+  background: 0 0;
+  border: none;
+}
+.btn-close-tooltip {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -999px;
+  background: url(https://img.megabox.co.kr/static/pc/images/common/btn/btn-close-tooltip.png)
+    no-repeat 0 0;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+button {
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.15;
+}
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  /* font-style: ;
+  font-variant-ligatures: ;
+  font-variant-caps: ;
+  font-variant-numeric: ;
+  font-variant-east-asian: ;
+  font-weight: ;
+  font-stretch: ;
+  font-size: ;
+  font-family: ; */
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+/*  li.tyoe01.oneContentTag */
+
+/*  img */
+.movie-idv-story ul li .story-area .user-prof .prof-img img {
+  width: 100%;
+}
+img {
+  border: 0;
+}
+
+img {
+  border-style: none;
+}
+/*  div.story-box */
+.movie-idv-story ul li .story-area .story-box {
+  float: right;
+  position: relative;
+  width: calc(100% - 105px);
+  height: 84px;
+  padding: 0;
+}
+/*  div.story-wrap.review */
+.movie-idv-story ul li.type01 .story-area .story-box .story-wrap {
+  display: block;
+  width: 100%;
+  height: 84px;
+}
+/*  stop .review */
+.review {
+  border-bottom: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+/*  stop ul */
+div.user-prof {
+  display: block;
+}
+.movie-idv-story ul li.type01 .story-area .story-box .story-wrap .tit {
+  float: left;
+  height: 84px;
+  width: 105px;
+  line-height: 82px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 0 0 0 10px;
+}
+
+.movie-idv-story ul li .story-area .story-box .review .tit {
+  color: #503396;
+}
+.movie-idv-story ul li.type01 .story-area .story-box .tit {
+  background-color: #f8f8fa;
+}
+.movie-idv-story ul li .story-area .story-box .tit {
+  font-weight: 400;
+  background-color: #fff;
+  border: 1px solid #f2f4f5;
+  border-width: 1px 0 1px 1px;
+}
+/*  div.story-cont  */
+.movie-idv-story ul li .story-area .story-box .review .story-cont {
+  background-color: #f8f8fa;
+  color: #503396;
+  border-radius: 0 10px 10px 0;
+}
+.movie-idv-story ul li .story-area .story-box .story-cont {
+  display: table;
+  float: left;
+  width: 890px;
+  height: 84px;
+  padding: 0;
+  vertical-align: middle;
+}
+/*  div.story-point */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-point {
+  display: table-cell;
+  width: 90px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+/*  span  */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-point span {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 2.4em;
+  font-family: Roboto;
+  font-weight: 300;
+}
+.movie-idv-story
+  ul
+  li
+  .story-area
+  .story-box
+  .story-cont
+  .story-like
+  button
+  span {
+  display: block;
+  padding: 5px 0 0 0;
+  color: #666;
+  font-size: 0.8667em;
+}
+.movie-idv-story ul li .story-date span {
+  padding: 10px 0 0 0;
+  text-align: right;
+  font-size: 0.9333em;
+  line-height: 1.1;
+  color: #666;
+}
+/*  div.story-recommend */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-recommend {
+  display: table-cell;
+  width: 85px;
+  height: 50px;
+  padding: 0 20px 0 0;
+  vertical-align: middle;
+}
+/*  em  */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-recommend em {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+em {
+  font-style: normal;
+}
+em {
+  font-style: italic;
+}
+/*  div.story-txt */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-txt {
+  display: table-cell;
+  position: relative;
+  padding: 0 20px 0 30px;
+  text-align: left;
+  color: #666;
+  vertical-align: middle;
+  font-size: 0.9333em;
+  line-height: 1.4;
+}
+/*  div.story-txt::before */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-txt:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 1px;
+  height: 50px;
+  margin-top: -25px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*  div.story-like  */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-like {
+  display: table-cell;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+/*  button.oneLikeBtn */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-like button {
+  height: 30px;
+  padding-top: 5px;
+}
+.movie-idv-story ul li button {
+  background: 0 0;
+  border: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+button {
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.15;
+}
+/*  i.iconset.ico-like-gray */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-like button i {
+  display: block;
+  margin: 0 auto;
+  vertical-align: top;
+}
+.ico-like-gray {
+  width: 16px;
+  height: 17px;
+  background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-like-g.png);
+}
+.iconset {
+  overflow: hidden;
+  display: inline-block;
+  margin: -1px 0 0 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+/*  button  */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-like button {
+  height: 30px;
+  padding-top: 5px;
+}
+.movie-idv-story ul li button {
+  background: 0 0;
+  border: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+button {
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.15;
+}
+/*  div.story-util  */
+.movie-idv-story ul li .story-area .story-box .story-cont .story-util {
+  display: table-cell;
+  position: relative;
+  width: 40px;
+  vertical-align: middle;
+}
+/*  div.post-function */
+.movie-idv-story
+  ul
+  li
+  .story-area
+  .story-box
+  .story-cont
+  .story-util
+  .post-funtion {
+  position: static;
+}
+.post-funtion {
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+/*  div.wrap  */
+.post-funtion .wrap,
+.post-funtion .wrapper {
+  position: relative;
+}
+/*  button.btn-alert  */
+.movie-idv-story
+  ul
+  li
+  .story-area
+  .story-box
+  .story-cont
+  .story-util
+  .post-funtion
+  .btn-alert {
+  width: 40px;
+  background-position: 10px center;
+}
+
+.post-funtion .btn-alert {
+  text-indent: -10000px;
+  background: url(https://img.megabox.co.kr/static/pc/images/movie/btn-alert.png)
+    center no-repeat;
+  border: 0;
+  width: 50px;
+  height: 23px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+.movie-idv-story ul li button {
+  background: 0 0;
+  border: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+button {
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.15;
+}
+/*  div.balloon-space.user  */
+.post-funtion .balloon-space.user {
+  height: 90px;
+  margin-top: -45px;
+}
+.movie-idv-story ul li .balloon-space {
+  color: #444;
+}
+.post-funtion .balloon-space {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  z-index: 11;
+  width: 260px;
+  border: 1px solid #d8d9db;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: left;
+}
+/*  div.balloon-cont  */
+.post-funtion .balloon-space .balloon-cont {
+  position: relative;
+  padding: 10px 25px 10px 20px;
+}
+/*  div.user  */
+.post-funtion .balloon-space.user .user {
+  display: block;
+}
+.post-funtion .balloon-space .balloon-cont .user {
+  display: none;
+  padding: 0 5px;
+  text-align: center;
+}
+/*  p.reset.a-c */
+p.reset {
+  padding: 0;
+  margin: 0;
+}
+.a-c {
+  text-align: center !important;
+}
+/*  button.maskOne  */
+.post-funtion .balloon-space .balloon-cont .user button {
+  display: inline-block;
+}
+.post-funtion .balloon-space .balloon-cont button {
+  display: block;
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  background-color: transparent;
+  color: #037b94;
+  font-size: 0.9333em;
+}
+
+.movie-idv-story ul li button {
+  background: 0 0;
+  border: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+button {
+  cursor: pointer;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.15;
+}
+/*  i.iconset.ico-arr-right-green */
+.movie-idv-story ul li .balloon-space button i {
+  margin-left: 4px;
+}
+.ico-arr-right-green {
+  overflow: hidden;
+  width: 6px;
+  height: 10px;
+  background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-arr-right-green.png);
+}
+.iconset {
+  overflow: hidden;
+  display: inline-block;
+  margin: -1px 0 0 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+/*  div.btn-close */
+.post-funtion .balloon-space .balloon-cont .btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/*  a.닫기  */
+.post-funtion .balloon-space .balloon-cont a {
+  display: block;
+  margin: 0;
+  padding: 5px;
+  border: 0;
+  background-color: transparent;
+  color: #037b94;
+  font-size: 0.9333em;
+}
+a:link {
+  color: #444;
+  text-decoration: none;
+}
+/*  div.story-wrap.review::after  */
+.movie-idv-story ul li.type01 .story-area .story-box .story-wrap:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/*  div.story-date  */
+.movie-idv-story ul li .story-date {
+  padding: 10px 0 0 0;
+  text-align: right;
+  font-size: 0.9333em;
+  line-height: 1.1;
+  color: #666;
+}
+/*  div.review.on */
+.movie-idv-story ul li .story-date .review.on {
+  display: block;
+}
+
+.movie-idv-story ul li .story-date .review {
+  display: none;
+}
+
+body {
+  overflow: auto;
+  overflow-y: scroll;
+  letter-spacing: 0;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #444;
+  font-weight: 400;
+  font-family: NanumBarunGothic, Dotum, "돋움", sans-serif;
+}
+
+.movie-idv-story ul li .story-area:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.movie-idv-story ul li .story-area .user-prof .user-id {
+  margin: 0;
+  width: 105px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9333em;
+  line-height: 1.1;
+}
